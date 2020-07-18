@@ -1,0 +1,35 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "paco's spider test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit":[
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PacoXIAO/spider.git"
+  },
+  "keywords": [
+    "paco",
+    "spider"
+  ],
+  "author": "Paco",
+  "email": "etwack@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PacoXIAO/spider/issues"
+  },
+  "homepage": "https://github.com/PacoXIAO/spider#readme",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "pre-commit": "^1.2.2"
+  }
+}

@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "fix": "eslint --fix ."
   },
-  "pre-commit":[
+  "pre-commit": [
     "fix",
     "lint"
   ],
@@ -28,8 +28,11 @@
   },
   "homepage": "https://github.com/PacoXIAO/spider#readme",
   "devDependencies": {
-    "eslint": "^7.4.0",
+    "eslint": "^6.0.0",
     "eslint-plugin-vue": "^6.2.2",
     "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "puppeteer": "^5.2.0"
   }
 }
